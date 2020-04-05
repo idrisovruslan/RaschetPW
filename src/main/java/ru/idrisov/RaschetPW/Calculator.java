@@ -1,8 +1,8 @@
-package ru.idrisov.RaschetPW;
+п»їpackage ru.idrisov.RaschetPW;
 
 public class Calculator {
 	static final double METAL_DENSITY = 7.85;
-//Перегруженный расчет
+//РџРµСЂРµРіСЂСѓР¶РµРЅРЅС‹Р№ СЂР°СЃС‡РµС‚
 	public double calc(double weight, double width) {
 		// metalDensity=this.metalDensity;
 		return (weight / METAL_DENSITY / 1000 / 1000 * width);

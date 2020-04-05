@@ -1,4 +1,4 @@
-package ru.idrisov.RaschetPW;
+п»їpackage ru.idrisov.RaschetPW;
 
 public class InputOfValues extends Input {
 	
@@ -6,14 +6,14 @@ public class InputOfValues extends Input {
 	public String userInput(String massage) {
 		
 		double value = 0;
-//Считываем пользовательский ввод
+//РЎС‡РёС‚С‹РІР°РµРј РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёР№ РІРІРѕРґ
 		String valueString = super.userInput(massage);
-//Проверяем правильность ввода	
+//РџСЂРѕРІРµСЂСЏРµРј РїСЂР°РІРёР»СЊРЅРѕСЃС‚СЊ РІРІРѕРґР°	
 		try {
 			value = Double.parseDouble(valueString);
 			if (value<=0) throw new NumberFormatException();
 		} catch (NumberFormatException e) {
-			System.err.println("Неверный формат строки!");
+			System.err.println("РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ СЃС‚СЂРѕРєРё!");
 			valueString = null;
 		}
 		return valueString;

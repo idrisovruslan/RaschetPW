@@ -1,4 +1,4 @@
-package ru.idrisov.RaschetPW;
+п»їpackage ru.idrisov.RaschetPW;
 
 public class Nastil extends Pokritie {
 	
@@ -6,21 +6,21 @@ public class Nastil extends Pokritie {
 	public void raschet() {
 		while (true) {
 
-			weightString = input.userInput("Введите вес(положительный, отличный от 0 int или double)");
+			weightString = input.userInput("Р’РІРµРґРёС‚Рµ РІРµСЃ(РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№, РѕС‚Р»РёС‡РЅС‹Р№ РѕС‚ 0 int РёР»Рё double)");
 			if (weightString == null) {
-				System.out.println("Вы ввели неверные данные");
+				System.out.println("Р’С‹ РІРІРµР»Рё РЅРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ");
 				break;
 			}
 			weight = Double.parseDouble(weightString);
 			
-			widthString = input.userInput("Введите длинну(положительный, отличный от 0 int или double)");
+			widthString = input.userInput("Р’РІРµРґРёС‚Рµ РґР»РёРЅРЅСѓ(РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Р№, РѕС‚Р»РёС‡РЅС‹Р№ РѕС‚ 0 int РёР»Рё double)");
 			if (widthString == null) {
-				System.out.println("Вы ввели неверные данные");
+				System.out.println("Р’С‹ РІРІРµР»Рё РЅРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ");
 				break;
 			}
 			width = Double.parseDouble(widthString);
 
-			System.out.println("Площадь поперечного сечения настила весом " + weight + " и длиной " + width + " = "
+			System.out.println("РџР»РѕС‰Р°РґСЊ РїРѕРїРµСЂРµС‡РЅРѕРіРѕ СЃРµС‡РµРЅРёСЏ РЅР°СЃС‚РёР»Р° РІРµСЃРѕРј " + weight + " Рё РґР»РёРЅРѕР№ " + width + " = "
 					+ calculator.calc(weight, width));
 			
 			break;

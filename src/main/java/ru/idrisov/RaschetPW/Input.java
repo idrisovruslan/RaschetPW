@@ -1,4 +1,4 @@
-package ru.idrisov.RaschetPW;
+п»їpackage ru.idrisov.RaschetPW;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class Input {
 	public String userInput(String massage) {
 		
 		String valueString = null;
-//Считываем пользовательский ввод
+//РЎС‡РёС‚С‹РІР°РµРј РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёР№ РІРІРѕРґ
 		try {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			System.out.println(massage);

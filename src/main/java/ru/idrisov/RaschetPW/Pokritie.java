@@ -1,4 +1,4 @@
-package ru.idrisov.RaschetPW;
+﻿package ru.idrisov.RaschetPW;
 
 public abstract class Pokritie {
 	Calculator calculator = new Calculator();
