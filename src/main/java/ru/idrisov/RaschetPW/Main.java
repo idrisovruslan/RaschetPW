@@ -11,12 +11,12 @@ public class Main {
 
 //Расчитываем настил
 			case ("nastil"):
-				new Nastil().raschet();
+				new Grating().calculation();
 				break;
 
 //Расчитываем ступень
 			case ("stupen"):
-				new Stupen().raschet();
+				new Stage().calculation();
 				break;
 
 //Справка
